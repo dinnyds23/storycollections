@@ -1,0 +1,53 @@
+body
+{
+ background-image: url(https://i.pinimg.com/736x/16/3e/3d/163e3dead3dafa5ddfa4c0cfc6809fdd.jpg);
+  background-repeat: no-repeat;
+   background-size: cover;
+
+   background-color: whitesmoke;
+   
+   color: whitesmoke;
+  
+}
+p
+{
+   text-align: center;
+   font-size: 50px;
+   margin-top: 7%;
+}
+.container
+{
+   margin: 15%;
+   padding:10px;
+   display: flex;
+   justify-content: center;
+}
+img
+{
+ height:350px;
+ width: 200px; 
+ padding: 5px; 
+ opacity: 1;
+ box-shadow: 5px 2px 5px black;
+ border-radius: 10px;
+}
+.box
+{
+   transition: 0.3;
+   padding: 2px;
+}
+.box:hover
+{
+   opacity:1;
+   transform:scale(1.3);
+   color: whitesmoke;
+   filter: drop-shadow(0 0 0.75rem rgb(0, 255, 229));
+  
+}
+.intro
+{
+   font-size: 20px;
+   font-weight: bold;
+   text-align: center;
+}
+
